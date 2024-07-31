@@ -11,7 +11,7 @@ keytool -list -keystore "C:\Program Files\Java\jdk1.8.0_202\jre\lib\security\cac
 ```
 STEP DONE
 
-STEP delete (optional) : run command di bawah jika ingin menghapus certificate dari cacerts, jika di LINUX hilangkan tanda petik (")
+STEP DELETE (optional) : run command di bawah jika ingin menghapus certificate dari cacerts, jika di LINUX hilangkan tanda petik (")
 ```
 keytool -delete -alias mpng2bulk -keystore "C:\Program Files\Java\jdk1.8.0_202\jre\lib\security\cacerts" -storepass changeit
 ```
